@@ -1,8 +1,8 @@
 package br.unijorge.letramento;
 
 // Arquivo TEMPORÁRIO do Encontro 1 (passo 6).
-// Na aula ele é criado em src/test/java/br/unijorge/letramento/ e apagado antes do commit.
-// Fica aqui só como referência para a professora.
+// Na aula os alunos o criam aqui e o apagam antes do commit da entrega.
+// No gabarito ele fica para a professora demonstrar: clique em Run acima do main.
 
 import br.unijorge.letramento.modelo.Candidato;
 import br.unijorge.letramento.modelo.Partido;

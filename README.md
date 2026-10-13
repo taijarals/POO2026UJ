@@ -58,4 +58,4 @@ Java 21 · Spring Boot · Vaadin · Maven · GitHub Codespaces
 
 Esta branch guarda a versão de referência da professora. A tag `e1` marca o fim do Encontro 1:
 `Partido`, `Candidato` (com a regra RN01), `MainLayout`, `InicioView`, `partidos.json` e `candidatos.json`.
-O arquivo temporário `Experimento.java` fica em `docs/encontro-1/` apenas como referência.
+O arquivo temporário `Experimento.java` fica em `src/test/java/br/unijorge/letramento/` para demonstração (os alunos o apagam antes da entrega).
