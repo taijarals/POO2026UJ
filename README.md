@@ -53,3 +53,9 @@ git push origin e1
 
 Java 21 · Spring Boot · Vaadin · Maven · GitHub Codespaces
 (Trilha B: front-end em Angular rodando na porta 4200).
+
+## Gabarito (branch `gabarito`)
+
+Esta branch guarda a versão de referência da professora. A tag `e1` marca o fim do Encontro 1:
+`Partido`, `Candidato` (com a regra RN01), `MainLayout`, `InicioView`, `partidos.json` e `candidatos.json`.
+O arquivo temporário `Experimento.java` fica em `docs/encontro-1/` apenas como referência.
