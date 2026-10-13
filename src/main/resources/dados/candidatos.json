@@ -1,0 +1,8 @@
+[
+  { "numero": "41123", "nomeUrna": "Ana Ventura",  "partidoNumero": "41", "cargoId": "vereador" },
+  { "numero": "41456", "nomeUrna": "Bruno Lima",   "partidoNumero": "41", "cargoId": "vereador" },
+  { "numero": "27310", "nomeUrna": "Carla Mendes", "partidoNumero": "27", "cargoId": "vereador" },
+  { "numero": "41",    "nomeUrna": "Rui Campos",   "partidoNumero": "41", "cargoId": "prefeito" },
+  { "numero": "27",    "nomeUrna": "Lia Moura",    "partidoNumero": "27", "cargoId": "prefeito" },
+  { "numero": "12",    "nomeUrna": "Davi Rocha",   "partidoNumero": "12", "cargoId": "prefeito" }
+]
