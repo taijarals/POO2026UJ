@@ -1,0 +1,18 @@
+# Maven
+target/
+
+# Vaadin / Node (gerados automaticamente)
+node_modules/
+src/main/frontend/generated/
+src/main/bundles/
+vite.generated.ts
+
+# Trilha B (Angular)
+front/node_modules/
+front/.angular/
+front/dist/
+
+# IDEs e sistema
+.idea/
+*.iml
+.DS_Store

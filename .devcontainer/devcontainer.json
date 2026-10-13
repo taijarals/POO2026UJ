@@ -1,0 +1,28 @@
+{
+  "name": "Cidadania em Rede (Java 21 + Maven + Node)",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "none",
+      "installMaven": "true",
+      "installGradle": "false"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "forwardPorts": [8080, 4200],
+  "portsAttributes": {
+    "8080": { "label": "App (Spring + Vaadin)", "onAutoForward": "notify" },
+    "4200": { "label": "Front Angular (Trilha B)", "onAutoForward": "notify" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot"
+      ]
+    }
+  },
+  "postCreateCommand": "chmod +x mvnw && ./mvnw -q -DskipTests dependency:go-offline || true"
+}
